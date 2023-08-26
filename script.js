@@ -26,6 +26,6 @@ submitButton.addEventListener("click", () => {
 
   if (correctCount === Object.keys(correctAnswers).length) {
     resultMessage.style.display = "block";
-    chiffreElement.textContent = "0";
+    chiffreElement.textContent = "6";
   }
 });
